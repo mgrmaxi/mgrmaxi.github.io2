@@ -1,0 +1,216 @@
+:root {
+    --main-color:#00494e; 
+    --sec:#ff5e00;
+    --font:#fff;
+  }
+  
+
+
+
+.upperBar{
+background: var(--main-color);
+padding: 10px;
+color: var(--font)
+
+}
+
+.thik{
+    
+    padding: 0px 5px ;
+    border:1px solid var(--sec);
+    display: inline-block;
+    margin-left: 20px;
+    border-radius: 5px;
+    
+}
+
+/* end .upperBar */
+/* start nAVBAR */
+.navbar-brand :first-child {
+    color: var(--sec);
+    font-size: 30px;
+    font-weight: bold;
+}
+.navbar-brand :last-child {
+    color: var(--main-color);
+    font-size: 30px;
+}
+.navbar-nav  .nav-link{
+color: var(--main-color)!important;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.navbar-nav .active > .nav-link {
+color: var(--sec)!important;
+    /* font-size: 20px; */
+}
+
+/* :start slider */
+
+.slider  .slide .carousel-inner .overly{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #0000008e ;
+    z-index: 2;
+}
+
+.slider .slider-word{
+    position: absolute;
+    z-index: 3;
+    font-size: 70px;
+    color: var(--font);
+    margin-left: 5%;
+    margin-top: 20%;
+    
+    
+}
+.slider .slider-word span{
+background: var(--sec);
+padding: 0px 5px;
+
+}
+
+.slider .carousel-item{
+    background-color: #ddd;
+    background-size: cover;
+}
+
+.slider .carousel-one {
+
+background-image: url("../img/s-1.jpg")
+}
+.slider .carousel-tow {
+
+background-image: url("../img/s-2.jpg")
+}
+.slider .carousel-three {
+
+background-image: url("../img/s-3.jpg")
+}
+
+.slider .carousel-indicators li{
+    height: 15px;
+    border-radius: 20%
+}
+
+
+
+/* start featurs */
+
+.featurs{
+    padding: 50px;
+    margin: 20px;
+   
+    
+
+}
+.featurs i{
+background: var(--sec);
+padding: 5px;
+color: #fff;
+
+}
+.featurs h2{
+    color:var(--main-color);
+}
+.featurs p{
+    margin-bottom: 30px;
+}
+
+/* start overflow */
+
+
+.overflow{
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+.overflow h1{
+color: var(--main-color);
+
+
+
+}
+.overflow h5{
+    color: rgb(121, 121, 118);
+    line-height: 1.5;
+    margin: 30px;
+}
+.overflow h3{
+    color: rgb(121, 121, 118);
+    line-height: 1.5;
+    margin: 30px;
+    
+}
+.overflow button{
+    padding: 10px 30px;
+    color:var(--font);
+    background-color: var(--sec);
+    border: 2px solid var(--sec);
+    margin: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+/* featurd-work */
+
+.featurd-work{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.featurd-work h5{
+    margin: 50px;
+}
+.featurd-work ul{
+    margin-bottom: 50px;
+}
+
+.featurd-work ul li{
+    margin-top: 30px;
+    border: 2px solid var(--main-color);
+    margin: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+    transition: all .5s ease-in-out; 
+}
+.featurd-work ul li.active,
+.featurd-work ul li:hover{
+    border: 3px solid var(--sec);
+    margin: 5px;
+    background-color: var(--sec);
+    color: var(--font);
+    padding: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.featurd-work  .shuffle-img .row {
+margin:  0;
+}
+.featurd-work  .shuffle-img .col-md-6 {
+padding: 0;
+transition: all .5s ease-in-out; 
+}
+.featurd-work  .shuffle-img .col-md-6 img{
+width: 100%;
+
+}
+
+
+/* latest-work */
+
+.latest-work{
+    margin: 50px
+    
+}
+.latest-work h1{
+    color: var(--main-color);
+
+}
+.latest-work .card{
+    margin-bottom: 30px
+}
+
